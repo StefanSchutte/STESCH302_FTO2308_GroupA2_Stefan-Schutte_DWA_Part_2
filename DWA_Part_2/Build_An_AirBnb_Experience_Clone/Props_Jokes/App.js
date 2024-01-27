@@ -7,6 +7,10 @@ export default function App() {
 
             <Joke
                 punchline="It’s hard to explain puns to kleptomaniacs because they always take things literally."
+                isPun={true}
+                upvotes={10}
+                downvotes={2}
+                comments={[{author: "", body: "", title: ""}]}
             />
 
             <Joke
