@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
     return (
         <section className='hero'>
-            <img src='../images/img_2.png' alt='hero' className='hero--photo'/>
+            <img src='../../public/images/img_2.png' alt='hero' className='hero--photo'/>
 
             <h1 className='hero--header'>Online Experiences</h1>
             <p className='hero--text'> Join unique interactive activities led by
