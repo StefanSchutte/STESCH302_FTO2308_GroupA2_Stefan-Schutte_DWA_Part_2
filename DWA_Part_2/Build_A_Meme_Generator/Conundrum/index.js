@@ -2,13 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function App() {
-    const thingsArray = ["Thing 1", "Thing 2"]
+    const [things, setThings] = React.useState(["Thing 1", "Thing 2"])
 
-    const thingsElements = thingsArray.map(thing => <p key={thing}>{thing}</p>)
+    const thingsElements = things.map(thing => <p key={thing}>{thing}</p>)
+
+    function addItem(){
+        const newThingText = `Thing ${thingsArray.length +1}`
+        // thingsArray.push(newThingText)
+        setThings(prevState => [...prevState, newThingText])
+    }
 
     return (
         <div>
-            <button>Add Item</button>
+            <button onClick={addItem}>Add Item</button>
             {thingsElements}
         </div>
     )
