@@ -35,4 +35,8 @@ body {
     align-items: center;
     color: #262626;
     cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    border: none;
 }
