@@ -1,0 +1,22 @@
+JavaScript frameworks simplify the complexity associated with managing the DOM. Despite their differences, most frameworks have several common characteristics.
+
+
+
+You will often find concepts related to components, rendering and reactivity. While some frameworks also incorporate the store pattern and dependency injection to manage complexity.
+
+
+
+At their core, most frameworks simplify creating highly interactive user interfaces (UI) with JavaScript. This means that in most cases, they attempt to solve the same problems inherent in JavaScript, with slight differences in their approach or what they consider the best solution. The three primary issues can be summarised as follows:
+
+The imperative nature of DOM manipulation. I.e. providing a declarative and polymorphic manner to communicate the view's structure (what users see).
+The fragmented manner in which state is stored and updated between the DOM and the JavaScript runtime. I.e. forcing an encapsulated and centralised app state, allowing the saving and retrieving of state from other sources such as local storage.
+The imperative and fragmented manner in which events are handled in the DOM. I.e. providing a declarative and formalised way to indicate what will happen on specific user actions.
+
+
+The content covered in the previous module should provide you with enough conceptual tools to start picking at some of these high-level concepts. However, the actual practical implications of these will become more apparent as we explore different frameworks. To achieve the above, most frameworks make use of some of the following, which you might hear about a couple of times as we work through frameworks:
+
+Components: Reusable, modular building blocks that help streamline the development of complex web applications by providing pre-built functionality. Each framework has its unique component architecture. For example, frameworks might enforce a single component per file approach (Vue and Svelte), require multiple files for a single component (Angular) or not enforce any requirements in terms of file structure (React and Lit).
+Rendering: Since there is no declarative way to interact with the DOM, most frameworks have an internal process by which they a declarative expression of the view into actual imperative DOM changes. This process is generally referred to as “rendering” and includes a range of techniques such as using a virtual DOM (React), change detection (Angular) or using compilation itself (Svelte)
+Reactivity: In general frameworks, abstract decisions around when to update the view (what a user sees) away. This means that instead of manually updating the DOM, it is your job to declare data dependencies across your entire app. By doing this, the framework will determine when and what needs to be updated in the view when data changes.
+Store Pattern: Most frameworks explicitly provide a means to retrieve data from a global state store (Svelte and Apline), have officially endorsed libraries (Vue and Angular) or leave the creation of global state tooling entirely to the community (React and Lit).
+Dependency Injection: Some frameworks (React, Vue, Svelte) provide dependency injection to swap out parts of an app during runtime (for testing, decoupling or other purposes). However, others (Angular) rely on dependency injection to achieve encapsulation and manage dependencies.
