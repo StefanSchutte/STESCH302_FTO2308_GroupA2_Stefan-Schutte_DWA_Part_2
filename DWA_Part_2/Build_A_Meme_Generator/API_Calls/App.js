@@ -3,7 +3,7 @@ import React from "react"
 export default function App() {
     const [starWarsData, setStarWarsData] = React.useState({})
 
-    const [count, setCount] = React.useState(0)
+    const [count, setCount] = React.useState(1)
 
     // 1. GET the data (fetch)
     // 2. Save the data to state
@@ -19,7 +19,7 @@ export default function App() {
     //
     // // side effects
     React.useEffect(function() {
-        fetch("https://swapi.dev/api/people/1")
+        fetch(`https://swapi.dev/api/people/${count}`)
              .then(res => res.json())
              .then(data => setStarWarsData(data))
 
