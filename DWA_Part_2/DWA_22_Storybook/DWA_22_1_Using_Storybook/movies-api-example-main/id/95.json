@@ -1,0 +1,25 @@
+{
+  "id": 95,
+  "name": "Lawrence of Arabia",
+  "image": "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+  "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
+  "release": "1962-12-05",
+  "duration": "174",
+  "genres": [
+    4
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 12,
+      "first_name": "Jonas",
+      "last_name": "Schaefer",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    }
+  ]
+}

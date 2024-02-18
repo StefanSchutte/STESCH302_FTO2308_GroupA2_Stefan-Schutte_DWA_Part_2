@@ -1,0 +1,25 @@
+{
+  "id": 66,
+  "name": "The Lives of Others",
+  "image": "https://m.media-amazon.com/images/M/MV5BNmQyNmJjM2ItNTQzYi00ZjMxLWFjMDYtZjUyN2YwZDk5YWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+  "description": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
+  "release": "2006-09-04",
+  "duration": "220",
+  "genres": [
+    2
+  ],
+  "actors": [
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    }
+  ]
+}

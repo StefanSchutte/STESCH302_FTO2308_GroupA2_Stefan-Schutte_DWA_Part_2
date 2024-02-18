@@ -1,0 +1,38 @@
+{
+  "id": 73,
+  "name": "Aliens",
+  "image": "https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
+  "release": "1986-10-07",
+  "duration": "143",
+  "genres": [
+    4,
+    3
+  ],
+  "actors": [
+    {
+      "id": 14,
+      "first_name": "Gerardo",
+      "last_name": "Swift",
+      "image": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    {
+      "id": 28,
+      "first_name": "Celine",
+      "last_name": "Becker",
+      "image": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 29,
+      "first_name": "Brayan",
+      "last_name": "Orn",
+      "image": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 14,
+  "name": "The Good, the Bad and the Ugly",
+  "image": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+  "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+  "release": "1966-08-19",
+  "duration": "154",
+  "genres": [
+    4,
+    1
+  ],
+  "actors": [
+    {
+      "id": 24,
+      "first_name": "Mina",
+      "last_name": "Nitzsche",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    }
+  ]
+}

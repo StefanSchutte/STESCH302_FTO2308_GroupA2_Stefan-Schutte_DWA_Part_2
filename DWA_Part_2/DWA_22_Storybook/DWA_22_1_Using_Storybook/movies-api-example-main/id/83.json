@@ -1,0 +1,38 @@
+{
+  "id": 83,
+  "name": "The Great Dictator",
+  "image": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+  "release": "1940-05-11",
+  "duration": "146",
+  "genres": [
+    5,
+    3
+  ],
+  "actors": [
+    {
+      "id": 26,
+      "first_name": "Brandi",
+      "last_name": "Barrows",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    },
+    {
+      "id": 12,
+      "first_name": "Jonas",
+      "last_name": "Schaefer",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    }
+  ]
+}

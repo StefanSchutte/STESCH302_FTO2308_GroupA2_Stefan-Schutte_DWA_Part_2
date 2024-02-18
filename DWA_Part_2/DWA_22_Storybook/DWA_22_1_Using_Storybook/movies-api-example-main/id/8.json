@@ -1,0 +1,43 @@
+{
+  "id": 8,
+  "name": "Pulp Fiction",
+  "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "release": "1994-03-10",
+  "duration": "183",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 7,
+      "first_name": "Gunner",
+      "last_name": "Olson",
+      "image": "https://randomuser.me/api/portraits/men/59.jpg"
+    },
+    {
+      "id": 1,
+      "first_name": "Jaylon",
+      "last_name": "Bayer",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    }
+  ]
+}

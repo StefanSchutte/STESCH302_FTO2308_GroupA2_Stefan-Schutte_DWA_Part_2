@@ -1,0 +1,24 @@
+
+[[redirects]]
+  from = "/"
+  to = "/previews.json"
+  status = 200
+[[redirects]]
+  from = "/id/:id/*"
+  to = "/id/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/genre/:splat/*"
+  to = "/genre/:splat.json"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/invalid.json"
+  status = 500
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"

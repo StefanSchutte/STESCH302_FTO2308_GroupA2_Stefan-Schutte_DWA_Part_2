@@ -1,0 +1,43 @@
+{
+  "id": 74,
+  "name": "Amadeus",
+  "image": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+  "description": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him.",
+  "release": "1984-08-06",
+  "duration": "141",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 19,
+      "first_name": "Madyson",
+      "last_name": "Hermiston",
+      "image": "https://randomuser.me/api/portraits/men/76.jpg"
+    },
+    {
+      "id": 11,
+      "first_name": "Arjun",
+      "last_name": "Stanton",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 7,
+      "first_name": "Gunner",
+      "last_name": "Olson",
+      "image": "https://randomuser.me/api/portraits/men/59.jpg"
+    },
+    {
+      "id": 5,
+      "first_name": "Jamison",
+      "last_name": "O'Kon",
+      "image": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "id": 14,
+      "first_name": "Gerardo",
+      "last_name": "Swift",
+      "image": "https://randomuser.me/api/portraits/men/79.jpg"
+    }
+  ]
+}

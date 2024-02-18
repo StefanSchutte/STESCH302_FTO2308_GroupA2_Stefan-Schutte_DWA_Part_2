@@ -1,0 +1,31 @@
+{
+  "id": 24,
+  "name": "Life Is Beautiful",
+  "image": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+  "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
+  "release": "1997-04-14",
+  "duration": "192",
+  "genres": [
+    4
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 14,
+      "first_name": "Gerardo",
+      "last_name": "Swift",
+      "image": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

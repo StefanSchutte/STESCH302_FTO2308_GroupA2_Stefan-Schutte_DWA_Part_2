@@ -1,0 +1,19 @@
+{
+  "id": 68,
+  "name": "Memento",
+  "image": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+  "release": "2000-02-25",
+  "duration": "218",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    }
+  ]
+}

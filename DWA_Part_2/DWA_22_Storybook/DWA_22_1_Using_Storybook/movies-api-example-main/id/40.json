@@ -1,0 +1,38 @@
+{
+  "id": 40,
+  "name": "The Usual Suspects",
+  "image": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+  "release": "1995-10-14",
+  "duration": "187",
+  "genres": [
+    1,
+    5
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 16,
+      "first_name": "Carlee",
+      "last_name": "Koelpin",
+      "image": "https://randomuser.me/api/portraits/women/91.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    },
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    }
+  ]
+}

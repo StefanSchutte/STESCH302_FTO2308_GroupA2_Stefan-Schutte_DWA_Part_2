@@ -1,0 +1,38 @@
+{
+  "id": 22,
+  "name": "Saving Private Ryan",
+  "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+  "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+  "release": "1998-01-14",
+  "duration": "192",
+  "genres": [
+    5,
+    1
+  ],
+  "actors": [
+    {
+      "id": 12,
+      "first_name": "Jonas",
+      "last_name": "Schaefer",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "id": 21,
+      "first_name": "Rosanna",
+      "last_name": "Gulgowski",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 22,
+      "first_name": "Candice",
+      "last_name": "Hettinger",
+      "image": "https://randomuser.me/api/portraits/women/23.jpg"
+    }
+  ]
+}

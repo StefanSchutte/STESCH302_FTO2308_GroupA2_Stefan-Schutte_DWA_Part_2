@@ -1,0 +1,32 @@
+{
+  "id": 88,
+  "name": "Requiem for a Dream",
+  "image": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+  "release": "2000-07-01",
+  "duration": "166",
+  "genres": [
+    2,
+    4
+  ],
+  "actors": [
+    {
+      "id": 24,
+      "first_name": "Mina",
+      "last_name": "Nitzsche",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

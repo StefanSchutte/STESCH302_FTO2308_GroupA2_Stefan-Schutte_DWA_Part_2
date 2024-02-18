@@ -1,0 +1,20 @@
+{
+  "id": 82,
+  "name": "Sunset Blvd.",
+  "image": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_.jpg",
+  "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.",
+  "release": "1950-02-16",
+  "duration": "145",
+  "genres": [
+    3,
+    2
+  ],
+  "actors": [
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    }
+  ]
+}

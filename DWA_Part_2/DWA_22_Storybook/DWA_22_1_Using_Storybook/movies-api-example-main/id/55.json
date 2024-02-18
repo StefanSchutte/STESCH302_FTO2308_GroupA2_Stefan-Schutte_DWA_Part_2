@@ -1,0 +1,38 @@
+{
+  "id": 55,
+  "name": "Joker",
+  "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+  "description": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+  "release": "null-09-03",
+  "duration": "206",
+  "genres": [
+    1,
+    4
+  ],
+  "actors": [
+    {
+      "id": 3,
+      "first_name": "Cyrus",
+      "last_name": "Grimes",
+      "image": "https://randomuser.me/api/portraits/women/39.jpg"
+    },
+    {
+      "id": 16,
+      "first_name": "Carlee",
+      "last_name": "Koelpin",
+      "image": "https://randomuser.me/api/portraits/women/91.jpg"
+    },
+    {
+      "id": 13,
+      "first_name": "Kenton",
+      "last_name": "Friesen",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg"
+    },
+    {
+      "id": 17,
+      "first_name": "Quinton",
+      "last_name": "Pollich",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    }
+  ]
+}

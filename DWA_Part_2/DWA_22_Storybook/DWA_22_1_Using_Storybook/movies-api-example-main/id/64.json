@@ -1,0 +1,31 @@
+{
+  "id": 64,
+  "name": "3 Idiots",
+  "image": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+  "release": "2009-01-19",
+  "duration": "185",
+  "genres": [
+    1
+  ],
+  "actors": [
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    },
+    {
+      "id": 18,
+      "first_name": "Naomie",
+      "last_name": "Hamill",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Stanford",
+      "last_name": "Fadel",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  ]
+}

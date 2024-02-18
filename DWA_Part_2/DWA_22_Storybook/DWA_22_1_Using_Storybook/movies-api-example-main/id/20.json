@@ -1,0 +1,25 @@
+{
+  "id": 20,
+  "name": "City of God",
+  "image": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+  "release": "2002-01-04",
+  "duration": "143",
+  "genres": [
+    2
+  ],
+  "actors": [
+    {
+      "id": 12,
+      "first_name": "Jonas",
+      "last_name": "Schaefer",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

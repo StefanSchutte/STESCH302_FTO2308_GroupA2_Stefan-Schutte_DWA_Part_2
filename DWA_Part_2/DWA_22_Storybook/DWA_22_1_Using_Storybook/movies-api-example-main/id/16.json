@@ -1,0 +1,32 @@
+{
+  "id": 16,
+  "name": "Goodfellas",
+  "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+  "release": "1990-01-11",
+  "duration": "169",
+  "genres": [
+    5,
+    1
+  ],
+  "actors": [
+    {
+      "id": 26,
+      "first_name": "Brandi",
+      "last_name": "Barrows",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 18,
+      "first_name": "Naomie",
+      "last_name": "Hamill",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 29,
+      "first_name": "Brayan",
+      "last_name": "Orn",
+      "image": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 54,
+  "name": "Capernaum",
+  "image": "https://m.media-amazon.com/images/M/MV5BY2Y3OWNkMTctYzNjYS00NWVkLTg4OWEtY2YxN2I3NDhlYzE0XkEyXkFqcGdeQXVyMTI3ODAyMzE2._V1_.jpg",
+  "description": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",
+  "release": "2018-09-13",
+  "duration": "159",
+  "genres": [
+    2,
+    4
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 26,
+      "first_name": "Brandi",
+      "last_name": "Barrows",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 45,
+  "name": "Back to the Future",
+  "image": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+  "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  "release": "1985-04-02",
+  "duration": "208",
+  "genres": [
+    5
+  ],
+  "actors": [
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 92,
+  "name": "Once Upon a Time in America",
+  "image": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life.",
+  "release": "1984-07-13",
+  "duration": "140",
+  "genres": [
+    2
+  ],
+  "actors": [
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    }
+  ]
+}

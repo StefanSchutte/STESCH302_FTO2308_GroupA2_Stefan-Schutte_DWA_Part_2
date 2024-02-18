@@ -1,0 +1,38 @@
+{
+  "id": 67,
+  "name": "Oldboy",
+  "image": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",
+  "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+  "release": "2003-01-21",
+  "duration": "156",
+  "genres": [
+    1,
+    5
+  ],
+  "actors": [
+    {
+      "id": 23,
+      "first_name": "Antonette",
+      "last_name": "Will",
+      "image": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+      "id": 15,
+      "first_name": "Francesco",
+      "last_name": "Schaden",
+      "image": "https://randomuser.me/api/portraits/women/53.jpg"
+    },
+    {
+      "id": 13,
+      "first_name": "Kenton",
+      "last_name": "Friesen",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

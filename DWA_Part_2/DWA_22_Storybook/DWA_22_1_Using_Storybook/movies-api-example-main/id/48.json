@@ -1,0 +1,19 @@
+{
+  "id": 48,
+  "name": "Once Upon a Time in the West",
+  "image": "https://m.media-amazon.com/images/M/MV5BODQ3NDExOGYtMzI3Mi00NWRlLTkwNjAtNjc4MDgzZGJiZTA1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+  "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+  "release": "1968-09-14",
+  "duration": "188",
+  "genres": [
+    5
+  ],
+  "actors": [
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    }
+  ]
+}

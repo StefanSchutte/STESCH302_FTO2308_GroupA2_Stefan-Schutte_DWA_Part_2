@@ -1,0 +1,32 @@
+{
+  "id": 93,
+  "name": "Star Wars: Episode VI - Return of the Jedi",
+  "image": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+  "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.",
+  "release": "1983-03-23",
+  "duration": "220",
+  "genres": [
+    3,
+    1
+  ],
+  "actors": [
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 16,
+      "first_name": "Carlee",
+      "last_name": "Koelpin",
+      "image": "https://randomuser.me/api/portraits/women/91.jpg"
+    },
+    {
+      "id": 23,
+      "first_name": "Antonette",
+      "last_name": "Will",
+      "image": "https://randomuser.me/api/portraits/men/93.jpg"
+    }
+  ]
+}

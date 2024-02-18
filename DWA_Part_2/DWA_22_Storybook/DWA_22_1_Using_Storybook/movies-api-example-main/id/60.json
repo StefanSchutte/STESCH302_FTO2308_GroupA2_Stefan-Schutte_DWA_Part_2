@@ -1,0 +1,20 @@
+{
+  "id": 60,
+  "name": "Coco",
+  "image": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
+  "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+  "release": "null-04-18",
+  "duration": "218",
+  "genres": [
+    5,
+    3
+  ],
+  "actors": [
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    }
+  ]
+}

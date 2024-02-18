@@ -1,0 +1,26 @@
+{
+  "id": 62,
+  "name": "Top Gun: Maverick",
+  "image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+  "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+  "release": "2022-01-22",
+  "duration": "160",
+  "genres": [
+    5,
+    1
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 98,
+  "name": "Singin' in the Rain",
+  "image": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+  "description": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood.",
+  "release": "1952-12-21",
+  "duration": "143",
+  "genres": [
+    4
+  ],
+  "actors": [
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Cyrus",
+      "last_name": "Grimes",
+      "image": "https://randomuser.me/api/portraits/women/39.jpg"
+    },
+    {
+      "id": 18,
+      "first_name": "Naomie",
+      "last_name": "Hamill",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    }
+  ]
+}

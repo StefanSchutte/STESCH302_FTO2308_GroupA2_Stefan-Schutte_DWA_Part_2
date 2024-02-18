@@ -1,0 +1,43 @@
+{
+  "id": 53,
+  "name": "City Lights",
+  "image": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",
+  "release": "1931-09-09",
+  "duration": "180",
+  "genres": [
+    1
+  ],
+  "actors": [
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Cyrus",
+      "last_name": "Grimes",
+      "image": "https://randomuser.me/api/portraits/women/39.jpg"
+    },
+    {
+      "id": 21,
+      "first_name": "Rosanna",
+      "last_name": "Gulgowski",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 5,
+      "first_name": "Jamison",
+      "last_name": "O'Kon",
+      "image": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Cordell",
+      "last_name": "Greenfelder",
+      "image": "https://randomuser.me/api/portraits/women/86.jpg"
+    }
+  ]
+}

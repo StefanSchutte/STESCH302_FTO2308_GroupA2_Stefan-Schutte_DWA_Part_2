@@ -1,0 +1,38 @@
+{
+  "id": 72,
+  "name": "Come and See",
+  "image": "https://m.media-amazon.com/images/M/MV5BNzU3OTI1MjItYTJiZC00NDI0LWFlNGYtOTQ1OTVhNDgwM2U3XkEyXkFqcGdeQXVyNTc2MDU0NDE@._V1_.jpg",
+  "description": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",
+  "release": "1985-01-08",
+  "duration": "163",
+  "genres": [
+    1,
+    2
+  ],
+  "actors": [
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 17,
+      "first_name": "Quinton",
+      "last_name": "Pollich",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 28,
+      "first_name": "Celine",
+      "last_name": "Becker",
+      "image": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "id": 16,
+      "first_name": "Carlee",
+      "last_name": "Koelpin",
+      "image": "https://randomuser.me/api/portraits/women/91.jpg"
+    }
+  ]
+}

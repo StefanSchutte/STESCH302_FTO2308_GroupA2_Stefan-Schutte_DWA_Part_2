@@ -1,0 +1,37 @@
+{
+  "id": 56,
+  "name": "Your Name.",
+  "image": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_.jpg",
+  "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+  "release": "2016-06-27",
+  "duration": "163",
+  "genres": [
+    4
+  ],
+  "actors": [
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 18,
+      "first_name": "Naomie",
+      "last_name": "Hamill",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 24,
+      "first_name": "Mina",
+      "last_name": "Nitzsche",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    }
+  ]
+}

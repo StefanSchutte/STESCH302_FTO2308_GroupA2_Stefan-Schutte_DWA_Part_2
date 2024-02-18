@@ -1,0 +1,20 @@
+{
+  "id": 57,
+  "name": "Spider-Man: Into the Spider-Verse",
+  "image": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+  "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+  "release": "2018-06-20",
+  "duration": "162",
+  "genres": [
+    1,
+    5
+  ],
+  "actors": [
+    {
+      "id": 11,
+      "first_name": "Arjun",
+      "last_name": "Stanton",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    }
+  ]
+}

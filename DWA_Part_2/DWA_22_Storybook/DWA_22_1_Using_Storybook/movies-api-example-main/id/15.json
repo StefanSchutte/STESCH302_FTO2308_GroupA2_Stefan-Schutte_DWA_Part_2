@@ -1,0 +1,32 @@
+{
+  "id": 15,
+  "name": "The Matrix",
+  "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+  "release": "1999-02-19",
+  "duration": "192",
+  "genres": [
+    2,
+    4
+  ],
+  "actors": [
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 15,
+      "first_name": "Francesco",
+      "last_name": "Schaden",
+      "image": "https://randomuser.me/api/portraits/women/53.jpg"
+    },
+    {
+      "id": 1,
+      "first_name": "Jaylon",
+      "last_name": "Bayer",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+  ]
+}

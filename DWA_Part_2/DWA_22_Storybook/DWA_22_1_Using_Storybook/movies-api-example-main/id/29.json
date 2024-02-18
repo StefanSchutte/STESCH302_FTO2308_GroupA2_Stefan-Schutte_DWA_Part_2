@@ -1,0 +1,38 @@
+{
+  "id": 29,
+  "name": "Harakiri",
+  "image": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_.jpg",
+  "description": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.",
+  "release": "1962-02-14",
+  "duration": "209",
+  "genres": [
+    2,
+    4
+  ],
+  "actors": [
+    {
+      "id": 23,
+      "first_name": "Antonette",
+      "last_name": "Will",
+      "image": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 11,
+      "first_name": "Arjun",
+      "last_name": "Stanton",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 16,
+      "first_name": "Carlee",
+      "last_name": "Koelpin",
+      "image": "https://randomuser.me/api/portraits/women/91.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 77,
+  "name": "The Shining",
+  "image": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+  "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+  "release": "1980-03-24",
+  "duration": "184",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Stanford",
+      "last_name": "Fadel",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 18,
+      "first_name": "Naomie",
+      "last_name": "Hamill",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    }
+  ]
+}

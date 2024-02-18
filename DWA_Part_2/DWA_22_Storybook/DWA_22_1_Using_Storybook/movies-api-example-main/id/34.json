@@ -1,0 +1,25 @@
+{
+  "id": 34,
+  "name": "The Intouchables",
+  "image": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_.jpg",
+  "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+  "release": "2011-12-20",
+  "duration": "147",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

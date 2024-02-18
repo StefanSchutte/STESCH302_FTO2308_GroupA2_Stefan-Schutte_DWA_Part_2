@@ -1,0 +1,25 @@
+{
+  "id": 30,
+  "name": "Seven Samurai",
+  "image": "https://m.media-amazon.com/images/M/MV5BNWQ3OTM4ZGItMWEwZi00MjI5LWI3YzgtNTYwNWRkNmIzMGI5XkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_.jpg",
+  "description": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him. As the samurai teach the peasants how to defend themselves, the village is attacked by an army of bandits.",
+  "release": "1954-12-04",
+  "duration": "145",
+  "genres": [
+    2
+  ],
+  "actors": [
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 15,
+      "first_name": "Francesco",
+      "last_name": "Schaden",
+      "image": "https://randomuser.me/api/portraits/women/53.jpg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 89,
+  "name": "Good Will Hunting",
+  "image": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+  "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+  "release": "1997-03-16",
+  "duration": "186",
+  "genres": [
+    2,
+    5
+  ],
+  "actors": [
+    {
+      "id": 15,
+      "first_name": "Francesco",
+      "last_name": "Schaden",
+      "image": "https://randomuser.me/api/portraits/women/53.jpg"
+    }
+  ]
+}

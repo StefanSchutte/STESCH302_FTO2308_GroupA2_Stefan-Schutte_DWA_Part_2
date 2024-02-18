@@ -1,0 +1,32 @@
+{
+  "id": 11,
+  "name": "Fight Club",
+  "image": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+  "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+  "release": "1999-11-27",
+  "duration": "143",
+  "genres": [
+    5,
+    4
+  ],
+  "actors": [
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Cyrus",
+      "last_name": "Grimes",
+      "image": "https://randomuser.me/api/portraits/women/39.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Darwin",
+      "last_name": "Feest",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    }
+  ]
+}

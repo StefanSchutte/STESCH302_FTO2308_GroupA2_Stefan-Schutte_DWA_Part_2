@@ -1,0 +1,25 @@
+{
+  "id": 76,
+  "name": "The Boat",
+  "image": "https://m.media-amazon.com/images/M/MV5BNDBjMWUxNTUtNjZiNi00YzJhLTgzNzUtMTRiY2FkZmMzYTNjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
+  "description": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic world of a submariner in World War II.",
+  "release": "1981-07-02",
+  "duration": "170",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 11,
+      "first_name": "Arjun",
+      "last_name": "Stanton",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 13,
+      "first_name": "Kenton",
+      "last_name": "Friesen",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg"
+    }
+  ]
+}

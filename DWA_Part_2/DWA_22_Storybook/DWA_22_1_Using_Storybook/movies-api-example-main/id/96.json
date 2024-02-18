@@ -1,0 +1,43 @@
+{
+  "id": 96,
+  "name": "North by Northwest",
+  "image": "https://m.media-amazon.com/images/M/MV5BZDA3NDExMTUtMDlhOC00MmQ5LWExZGUtYmI1NGVlZWI4OWNiXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+  "description": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.",
+  "release": "1959-07-13",
+  "duration": "199",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "id": 24,
+      "first_name": "Mina",
+      "last_name": "Nitzsche",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 9,
+      "first_name": "Otho",
+      "last_name": "Pacocha",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Cordell",
+      "last_name": "Greenfelder",
+      "image": "https://randomuser.me/api/portraits/women/86.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 80,
+  "name": "Witness for the Prosecution",
+  "image": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
+  "description": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise.",
+  "release": "1957-06-14",
+  "duration": "156",
+  "genres": [
+    1
+  ],
+  "actors": [
+    {
+      "id": 26,
+      "first_name": "Brandi",
+      "last_name": "Barrows",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    }
+  ]
+}

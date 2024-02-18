@@ -1,0 +1,20 @@
+{
+  "id": 94,
+  "name": "2001: A Space Odyssey",
+  "image": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.",
+  "release": "1968-05-08",
+  "duration": "193",
+  "genres": [
+    1,
+    4
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "first_name": "Jaylon",
+      "last_name": "Bayer",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+  ]
+}

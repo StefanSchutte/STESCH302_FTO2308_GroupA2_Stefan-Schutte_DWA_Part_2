@@ -1,0 +1,31 @@
+{
+  "id": 81,
+  "name": "Paths of Glory",
+  "image": "https://m.media-amazon.com/images/M/MV5BOTI5Nzc0OTMtYzBkMS00NjkxLThmM2UtNjM2ODgxN2M5NjNkXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg",
+  "description": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.",
+  "release": "1957-07-23",
+  "duration": "184",
+  "genres": [
+    2
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "first_name": "Jaylon",
+      "last_name": "Bayer",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 29,
+      "first_name": "Brayan",
+      "last_name": "Orn",
+      "image": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  ]
+}

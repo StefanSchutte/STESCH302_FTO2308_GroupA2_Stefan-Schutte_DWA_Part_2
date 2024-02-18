@@ -1,0 +1,43 @@
+{
+  "id": 100,
+  "name": "M",
+  "image": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@._V1_.jpg",
+  "description": "When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt.",
+  "release": "1931-09-27",
+  "duration": "150",
+  "genres": [
+    5
+  ],
+  "actors": [
+    {
+      "id": 28,
+      "first_name": "Celine",
+      "last_name": "Becker",
+      "image": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "id": 13,
+      "first_name": "Kenton",
+      "last_name": "Friesen",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg"
+    },
+    {
+      "id": 12,
+      "first_name": "Jonas",
+      "last_name": "Schaefer",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 21,
+      "first_name": "Rosanna",
+      "last_name": "Gulgowski",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    }
+  ]
+}

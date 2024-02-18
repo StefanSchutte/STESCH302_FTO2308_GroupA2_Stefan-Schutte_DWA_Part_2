@@ -1,0 +1,31 @@
+{
+  "id": 17,
+  "name": "Star Wars: Episode V - The Empire Strikes Back",
+  "image": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+  "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+  "release": "1980-01-03",
+  "duration": "211",
+  "genres": [
+    4
+  ],
+  "actors": [
+    {
+      "id": 6,
+      "first_name": "Stanford",
+      "last_name": "Fadel",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 24,
+      "first_name": "Mina",
+      "last_name": "Nitzsche",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Cyrus",
+      "last_name": "Grimes",
+      "image": "https://randomuser.me/api/portraits/women/39.jpg"
+    }
+  ]
+}

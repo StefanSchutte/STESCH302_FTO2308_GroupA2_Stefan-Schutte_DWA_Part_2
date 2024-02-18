@@ -1,0 +1,19 @@
+{
+  "id": 65,
+  "name": "WALL·E",
+  "image": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_.jpg",
+  "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+  "release": "2008-09-29",
+  "duration": "200",
+  "genres": [
+    1
+  ],
+  "actors": [
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 43,
+  "name": "Cinema Paradiso",
+  "image": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_.jpg",
+  "description": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.",
+  "release": "1988-05-05",
+  "duration": "200",
+  "genres": [
+    3
+  ],
+  "actors": [
+    {
+      "id": 7,
+      "first_name": "Gunner",
+      "last_name": "Olson",
+      "image": "https://randomuser.me/api/portraits/men/59.jpg"
+    },
+    {
+      "id": 29,
+      "first_name": "Brayan",
+      "last_name": "Orn",
+      "image": "https://randomuser.me/api/portraits/women/45.jpg"
+    },
+    {
+      "id": 5,
+      "first_name": "Jamison",
+      "last_name": "O'Kon",
+      "image": "https://randomuser.me/api/portraits/women/24.jpg"
+    }
+  ]
+}

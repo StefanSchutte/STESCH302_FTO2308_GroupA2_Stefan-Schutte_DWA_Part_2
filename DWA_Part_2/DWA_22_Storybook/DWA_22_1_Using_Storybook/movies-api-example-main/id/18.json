@@ -1,0 +1,38 @@
+{
+  "id": 18,
+  "name": "One Flew Over the Cuckoo's Nest",
+  "image": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+  "description": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
+  "release": "1975-03-09",
+  "duration": "164",
+  "genres": [
+    1,
+    4
+  ],
+  "actors": [
+    {
+      "id": 26,
+      "first_name": "Brandi",
+      "last_name": "Barrows",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 14,
+      "first_name": "Gerardo",
+      "last_name": "Swift",
+      "image": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    {
+      "id": 17,
+      "first_name": "Quinton",
+      "last_name": "Pollich",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 20,
+      "first_name": "Annamae",
+      "last_name": "Kovacek",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    }
+  ]
+}

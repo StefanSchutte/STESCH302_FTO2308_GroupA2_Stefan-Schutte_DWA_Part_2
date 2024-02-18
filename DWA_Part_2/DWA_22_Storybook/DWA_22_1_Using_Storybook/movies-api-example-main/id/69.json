@@ -1,0 +1,37 @@
+{
+  "id": 69,
+  "name": "American Beauty",
+  "image": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+  "description": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
+  "release": "1999-04-19",
+  "duration": "151",
+  "genres": [
+    1
+  ],
+  "actors": [
+    {
+      "id": 27,
+      "first_name": "Marc",
+      "last_name": "Effertz",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "id": 10,
+      "first_name": "Ottis",
+      "last_name": "Labadie",
+      "image": "https://randomuser.me/api/portraits/men/78.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Stanford",
+      "last_name": "Fadel",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+  ]
+}

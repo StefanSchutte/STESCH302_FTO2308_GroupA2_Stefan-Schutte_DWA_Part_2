@@ -1,0 +1,44 @@
+{
+  "id": 25,
+  "name": "Se7en",
+  "image": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+  "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+  "release": "1995-11-27",
+  "duration": "175",
+  "genres": [
+    2,
+    4
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "first_name": "Jaylon",
+      "last_name": "Bayer",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 22,
+      "first_name": "Candice",
+      "last_name": "Hettinger",
+      "image": "https://randomuser.me/api/portraits/women/23.jpg"
+    },
+    {
+      "id": 14,
+      "first_name": "Gerardo",
+      "last_name": "Swift",
+      "image": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    }
+  ]
+}

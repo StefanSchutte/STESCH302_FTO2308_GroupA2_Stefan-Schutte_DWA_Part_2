@@ -1,0 +1,37 @@
+{
+  "id": 75,
+  "name": "Indiana Jones and the Raiders of the Lost Ark",
+  "image": "https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg",
+  "description": "Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.",
+  "release": "1981-11-18",
+  "duration": "207",
+  "genres": [
+    5
+  ],
+  "actors": [
+    {
+      "id": 11,
+      "first_name": "Arjun",
+      "last_name": "Stanton",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Krista",
+      "last_name": "Daniel",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Cordell",
+      "last_name": "Greenfelder",
+      "image": "https://randomuser.me/api/portraits/women/86.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Stanford",
+      "last_name": "Fadel",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  ]
+}

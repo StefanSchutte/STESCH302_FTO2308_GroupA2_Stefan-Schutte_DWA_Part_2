@@ -1,0 +1,44 @@
+{
+  "id": 59,
+  "name": "Avengers: Infinity War",
+  "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+  "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+  "release": "2018-06-21",
+  "duration": "173",
+  "genres": [
+    3,
+    5
+  ],
+  "actors": [
+    {
+      "id": 2,
+      "first_name": "Cordell",
+      "last_name": "Greenfelder",
+      "image": "https://randomuser.me/api/portraits/women/86.jpg"
+    },
+    {
+      "id": 30,
+      "first_name": "Lucius",
+      "last_name": "Hartmann",
+      "image": "https://randomuser.me/api/portraits/men/68.jpg"
+    },
+    {
+      "id": 25,
+      "first_name": "Santina",
+      "last_name": "Oberbrunner",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 17,
+      "first_name": "Quinton",
+      "last_name": "Pollich",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 21,
+      "first_name": "Rosanna",
+      "last_name": "Gulgowski",
+      "image": "https://randomuser.me/api/portraits/women/47.jpg"
+    }
+  ]
+}
