@@ -1,0 +1,123 @@
+In short, the event loop is a completely separate mechanism from the call stack and is only run if the call stack is empty. When the call stack is empty, JavaScript goes through the event loop and adds items whose conditions have been met to the call stack. If a condition of an item is not met, it is skipped until the event loop runs again (upon which it is checked again).
+
+
+
+This interplay between the call stack and event loop continues indefinitely until the JavaScript instance is terminated, generally after the browser tab is closed. Let's look at the following example of how commands are added and resolved by the event loop:
+
+
+
+// Adds resolution of variable to front of call stack
+const button = document.querySelector('button');
+
+// Function declarations are ignored by callstack
+const logA = () => {
+	console.log('A');
+}
+
+// Adds "logA" execution to event loop with condition that 2 seconds need to pass
+setTimeout(logA, 20000)
+
+// Adds execution of this function second in call stack
+logA();
+
+// Function declarations are ignored by callstack
+const logB = () => {
+  console.log('B');
+}
+
+// Function declarations are ignored by callstack
+const logC = () => {
+  console.log('C');
+}
+
+// Adds "logB" execution to event loop with condition that button needs to be clicked
+button.addEventListener('click', logB);
+
+// Adds execution of this function third in call stack
+logC();
+
+// Adds "logC" execution to event loop with condition that 0 seconds need to pass
+setTimeout(logC, 0)
+
+// Adds execution of this function fourth in call stack
+logB();
+
+
+We can expect the following to happen
+
+1. The following is added to the call stack (in the listed order)
+
+const button = document.querySelector('button')
+Run logA
+Run logC
+Run logB
+
+
+2. The following is added to the event loop with the appropriate conditions:
+
+20 seconds need to pass: Run logA()
+Button needs to be clicked: Run logB
+0 seconds need to pass: Run logC()
+
+
+3. The above concludes the code parsing and the call stack starts executing items in the correct order.
+
+
+
+4. All items in the call stack are executed, and the call stack is now empty
+
+
+
+5. The event loop checks the following conditions:
+
+false: 20 seconds need to pass
+false: Button needs to be clicked
+true: 0 seconds need to pass
+
+
+6. The event loop adds logC to the call stack and removes it from the event loop.
+
+
+
+7. The call stack executes logC and checks the event loop again
+
+
+
+8. The call stack is empty, and no conditions are met in the event loop; therefore, the event loop will keep looping over itself until a condition is true.
+
+
+
+9. While the event loop is cycling over itself, the button is clicked, and subsequently, when that condition is checked again, it is true.
+
+
+
+10. The event loop adds logB to the call stack and does not remove it from the event loop.
+
+
+
+11. The call stack executes logB and checks the event loop again.
+
+
+
+12. The call stack is empty, and no conditions are met in the event loop; therefore, the event loop will keep looping over itself until a condition is true.
+
+
+
+13. The button is pressed again, and steps 9 to 11 are repeated again.
+
+
+
+14. Finally, 20 seconds pass and the event loop adds logB to the call stack and removes it from the event loop.
+
+
+
+15. The call stack executes logB and checks the event loop again
+
+
+
+16. The call stack is empty, and no conditions are met in the event loop; therefore, the event loop will keep looping over itself until a condition is true.
+
+
+
+17. The browser is closed, and the call stack and event loop are removed from the thread.
+

@@ -1,0 +1,52 @@
+JavaScript cleverly uses something called an event loop, which is described by Wikipedia as follows:
+
+In computer science, the event loop is a programming construct or design pattern that waits for and dispatches events or messages in a program. The event loop works by requesting some internal or external "event provider" (that generally blocks the request until an event has arrived), then calls the relevant event handler ("dispatches the event"). The event loop is also sometimes referred to as the message dispatcher, message loop, message pump, or run loop.
+
+— Wikipedia, Event loop
+
+
+However, before we dive into the event loop, let's explore a related concept: the JavaScript call stack. You can think of the call stack as a conveyer belt. In short, when functions are called, they are placed on the conveyer belt to be executed. You might have gotten the common "Maximum call stack size exceeded" error in JavaScript before. The latter error essentially says that the size of the conveyer belt (your device's memory) is too small for the number of items you want to add to it.
+
+
+
+It is extremely rare to reach this limit by traditional means. However, it is quite easy to do so by accidentally adding infinite looping logic, since no device to date has infinite memory. For example, the following will trigger a "Maximum call stack size exceeded":
+
+
+
+const log = () => console.log('Keep on creating until call stack overflows');
+
+while (true) {
+	log();
+}
+
+
+Let's look at a very basic example of how the call stack works:
+
+
+
+// Function declarations are ignored by callstack
+const logA = () => {
+	console.log('A');
+}
+
+// Function declarations are ignored by callstack
+const logB = () => {
+  console.log('B');
+}
+
+// Function declarations are ignored by callstack
+const logC = () => {
+  console.log('C');
+}
+
+logA(); // Adds execution of this function first in call stack
+logB(); // Adds execution of this function second in call stack
+logC(); // Adds execution of this function third in call stack
+logB(); // Adds execution of this function fourth in call stack
+logC(); // Adds execution of this function fifth in call stack
+logA(); // Adds execution of this function at sixth in call stack
+
+// Once all code has been parsed the call stack starts executing the logic in order
+
+
+At the core of JavaScript's asynchrony is the interplay between all the above and something called the event loop.

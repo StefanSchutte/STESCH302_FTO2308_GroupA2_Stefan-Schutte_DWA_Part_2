@@ -16,7 +16,7 @@ type Store = {
 
 const createTypedStore = createZustandStore<Store>();
 
-const createStore = (api: Api): StoreApi<Store> => {
+export const createStore = (api: Api): StoreApi<Store> => {
   // const api = createApi();
 
   const store = createTypedStore(() => ({

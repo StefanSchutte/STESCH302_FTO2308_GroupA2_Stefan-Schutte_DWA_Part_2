@@ -1,0 +1,116 @@
+Although the example itself is extremely contrived, the situation is quite common in web apps where the user interface (UI) is managed by JavaScript instead of URL routing. For example, let's say a user request some data for a specific UI element, but while the data is still fetching, they either navigate away from the UI element or, for some other reason, the UI element is removed. This means that not only do the event listeners for the specific UI elements need to be removed manually to keep our event loop performant, but an error will also be thrown once the data is returned.
+
+
+
+// Button is added immediately.
+// Button is removed after 10 seconds to emulate user navigating away
+// However, random number is only received from the server after 15 seconds
+
+const emulateServerResponse = () => Math.round(Math.random() * 100);
+
+const fireRequest = (buttoNode) => {
+  setTimeout(() => buttonNode.innerText = `The number is: ${emulateServerResponse ()}`);
+  15000
+}
+
+const changeLabel = (event) => event.target.innerText = 'Fetching random number...*';*
+const disableButton = (event) => event.target.disabled = true;
+const fetchData = (event) => fireRequest(buttonNode);
+
+const createButton = () => {
+  const buttonNode = document.createElement('button');
+  buttonNode.innerText = 'Get random number';
+  buttonNode.addEventListener('click', disableButton);
+  buttonNode.addEventListener('click', changeLabel);
+  buttonNode.addEventListener('click', fetchData);
+	return buttonNode;
+}
+
+const removeButton = (buttoNode) => {
+	buttonNode.innerText = 'Removing...';
+  buttonNode.removeEventListener('click', disableButton);
+  buttonNode.removeEventListener('click', changeLabel);
+	buttonNode.addEventListener('click', fetchData);
+  buttonNode.remove();
+}
+
+const buttonContainer = document.querySelection('div');
+const buttonInstance = createButton();
+
+buttonContainer.appendChild(buttonInstance);
+setTimeout(() => removeButton(buttonInstance), 10000);
+
+
+If you run this, you will get an error like "Uncaught TypeError: Cannot set property 'innerText' of null". This is because the button DOM node no longer exists (and is therefore null) by the time the server request is returned.
+
+
+
+Yet, you might notice that we are removing the event listener with buttonNode.addEventListener('click', fetchData) when we remove the button. Why does the above still happen despite the event listener being removed? This is where the separation between event listeners and "messages" in the event loop becomes helpful. Event listeners can spawn their own "messages" in the event loop either through event listeners or other means. Above, we removed the original event listener, yet the "message" it spawned was still active. To fix this, we need to create a JavaScript class that we can wrap the logic in:
+
+
+
+const emulateServerResponse = () => Math.round(Math.random() * 100);
+
+class FetchData {
+	buttonNode = null;
+  request = null;
+
+	constructor(buttonNode) {
+		if (!buttonNode) throw new Error('HTML node needs to be supplied');
+    this.buttonNode = buttonNode;
+  }
+
+  fireRequest = () => {
+		  this.request = setTimeout(
+				() => {
+					buttonNode.innerText = `The number is: ${emulateServerResponse ()}`);
+					clearTimeout(this.request);
+				}
+			  15000,
+			)
+  }
+
+  cancelRequest = () => {
+		if (this.request) clearTimeout(this.request);
+	}
+}
+
+const changeLabel = (event) => event.target.innerText = 'Fetching random number...*';*
+const disableButton = (event) => event.target.disabled = true;
+
+const createButton = () => {
+  const buttonNode = document.createElement('button');
+  buttonNode.innerText = 'Get random number';
+  buttonNode.addEventListener('click', disableButton);
+  buttonNode.addEventListener('click', changeLabel);
+	const fetchDataInstance = new FetchData(buttoNNode)
+
+  buttonNode.addEventListener('click', () => fetchDataInstance.fireRequest);
+	return { buttonNode, fetchDataInstance };
+}
+
+const removeButton = (buttoNode, fetchDataInstance) => {
+	buttonNode.innerText = 'Removing...';
+  buttonNode.removeEventListener('click', disableButton);
+  buttonNode.removeEventListener('click', changeLabel);
+	buttonNode.addEventListener('click', fetchData);
+
+	fetchDataInstance.cancelRequest();
+  buttonNode.remove();
+}
+
+const buttonContainer = document.querySelection('div');
+const { buttonNode, fetchDataInstance } = createButton();
+
+buttonContainer.appendChild(buttonNode);
+setTimeout(() => removeButton(buttonNode, fetchDataInstance ), 10000);
+
+
+We expect you will struggle to follow along with what is happening above.
+
+
+
+The reality is that as powerful as the asynchrony using callbacks is in JavaScript, they can quickly become messy. This is why the Promise API (explored in the last video) was added to JavaScript.
+
+
+

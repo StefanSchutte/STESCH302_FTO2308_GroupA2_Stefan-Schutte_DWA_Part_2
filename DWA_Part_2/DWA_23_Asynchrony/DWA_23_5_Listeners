@@ -1,0 +1,34 @@
+n addition to the above, you might also have noticed that when a setTimeout is placed in the call stack, it is immediately removed from the event loop. If this were not the case, then it would be called every time the event loop runs (and possibly overload the call stack), since the condition (for example, "has 0 seconds passed") will always be true.
+
+
+
+Yet, at the same time, we did not see the same behaviour with the button item in the event loop; it is never removed, meaning that it would execute every time the button is pressed (regardless of whether it has already been pressed).
+
+
+
+Until now, we've just vaguely referred to "items" in the event loop. The technical term is called "messages". In JavaScript, messages are created by a concept you should already understand well, called event listeners. You can do this directly using the addEventListener on a range of native JavaScript objects, including DOM nodes:
+
+
+
+window.addEventListener('beforeunload', () => console.log('The browser tab is busy closing');
+window.addEventListener('offline', () => console.log('The network connection has been lost.');
+window.addEventListener('beforeprint', () => console.log('The document is about to be printed by the user');
+
+document.addEventListener('scroll', () => console.log('The user is scrolling');
+document.addEventListener('resize', () => console.log('The window is being resized');
+document.addEventListener('wheel', () => console.log('The user is using their mouse wheel');
+
+document.querySelector('video').addEventListener('ended', () => console.log('The video stopped because it reached the end of playback');
+document.querySelector('button').addEventListener('click', () => console.log('The button has been clicked');
+document.querySelector('p').addEventListener('copy', () => console.log('The text has been copied to the user\\'s clipboard');
+document.querySelector('input').addEventListener('change', () => console.log('User changed text in input');
+document.querySelector('img').addEventListener('error', () => console.log('The image did not load correctly');
+document.querySelector('div').addEventListener('animationstart', () => console.log('This element has started animating');
+document.querySelector('form').addEventListener('reset', () => console.log('A users has cleared the form');
+document.querySelector('ipunt').addEventListener('dragend', () => console.log('A user has dragged and dropped an item on the input');
+document.querySelector('video').addEventListener('volumechange', () => console.log('The audio volume of the video was changed');
+
+new WebSocket('ws://localhost:8080').addEventListener('message', () => console.log('A real-time message has been received);
+
+
+Note that while still adding "messages" to the event loop, setTimeout and setInterval are considered separate mechanisms from the formalised event listeners API, given that they are much older than the latter. setTimeout and setInterval were added to the specification by 1997, whereas the event listener API was only formally added in 2011. The critical implication is to be mindful that setTimeout and setInterval work differently than event listeners, yet both dispatch "messages" to the event loop.

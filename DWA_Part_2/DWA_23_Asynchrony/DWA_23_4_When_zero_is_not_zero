@@ -1,0 +1,9 @@
+f you followed the above chain of events closely, you might have noticed that the zero-second setTimeout executed after the logB() call - this is despite the setTimeout actually being called before the latter with a delay of 0. You might already know the answer, but it can be explained as follows: the logB() gets added to the call stack, while the setTimeout gets added to the event loop. It is widely acknowledged that the number of milliseconds passed to a setTimeout does not guarantee that it will execute after the time specified since it merely sets a condition that can be true or false when checked. This, however, means that it will never execute before the assigned time, but it might execute later (depending on when the event loop actually runs).
+
+
+
+For this reason, we saw several console outputs happen at once after the single-thread example with the alert call. The reason is that even though the conditions for each item in the event loop were met while the alert was active, the event loop did not run until after dismissing the alert. When the event loop eventually ran, several conditions were true (even though they turned true a while ago) and were all simultaneously added to the call stack.
+
+
+
+As an aside, it is for this very reason that CSS animation is always preferred over animation with JavaScript since traditional JavaScript animation relies on the event loop, and therefore you might get stutters and sudden jumps in animation depending on the interaction between the call stack and event loop. However, in cases where you cannot animate with CSS, it is recommended that you use the requestAnimationFrame API instead since this ensures that animation frames happen in the correct sequence (even if they are somewhat staggered).
