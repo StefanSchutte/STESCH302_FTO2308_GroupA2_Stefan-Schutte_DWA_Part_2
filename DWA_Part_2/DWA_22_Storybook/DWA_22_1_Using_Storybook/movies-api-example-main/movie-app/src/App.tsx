@@ -205,86 +205,103 @@
 
 //---------------------------------------------------------
 
-// import { createStore } from "./model";
-// import { List } from "./components";
-// import { useStore } from "zustand";
-// import { createApi } from "./api";
-//
-// const api = createApi();
-// const store = createStore(api);
-//
-// export const App = () => {
-//   // const store = createStore();
-//   const phase = useStore(store, (state) => state.phase);
-//   const movies = useStore(store, (state) => state.list);
-//
-//   if (phase === "Loading") return <div>Loading...</div>;
-//   return <List movies={movies} />;
-// };
+import { createStore } from "./model";
+import { List } from "./components/List";
+import { useStore } from "zustand";
+import { createApi } from "./api";
 
-setInterval(() => {
-  console.log(new Date());
-}, 2000);
-
-setTimeout(() => {
-  prompt("what u name?");
-}, 3000);
-
-const logDelay = (value: string, success: () => void, error: () => void) => {
-  setTimeout(() => {
-    console.log(value);
-
-    if (value === "l") return error();
-    success();
-  }, 2000);
-};
-
-//logDelay("hi", () => console.log("done"));
-logDelay(
-  "hi",
-  () => {
-    logDelay(
-      "l",
-      () => {
-        logDelay(
-          "lo",
-          () => {
-            console.log("done");
-          },
-          () => console.log("error"),
-        );
-      },
-      () => console.log("error"),
-    );
-  },
-  () => console.log("error"),
-);
-
-const createLogDelayPromise = (value: string, time: number): Promise<void> =>
-  new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log(value);
-
-      if (value === "l") return reject();
-      resolve();
-    }, time);
-  });
-createLogDelayPromise("h", 1000)
-  .then(() => createLogDelayPromise("e", 2000))
-  .then(() => createLogDelayPromise("l", 2000))
-  .then(() => createLogDelayPromise("o", 2000))
-  .catch(() => console.log("error"));
-
-const response = fetch("https://movies-example-api.netlify.app/")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error("something went wrong try again");
-    }
-    return response;
-  })
-  .then((response) => response.json())
-  .then((data) => console.log(data));
+const api = createApi();
+const store = createStore(api);
 
 export const App = () => {
-  return <div>123</div>;
+  // const store = createStore();
+  const phase = useStore(store, (state) => state.phase);
+  const movies = useStore(store, (state) => state.list);
+
+  const toggleConfiguration = useStore(
+    store,
+    (state) => state.toggleConfiguration,
+  );
+  const updateSearch = useStore(store, (state) => state.updateSearch);
+  const filter = useStore(store, (state) => state.filter);
+
+  //if (phase === "Loading") return <div>Loading...</div>;
+  return (
+    <List
+      movies={movies}
+      phase={phase}
+      filter={filter}
+      toggleConfigure={toggleConfiguration}
+      onFilter={({ search }) => {
+        updateSearch(search || "");
+      }}
+    />
+  );
 };
+//-------------------------------------async----------------------------------------
+// setInterval(() => {
+//   console.log(new Date());
+// }, 2000);
+//
+// setTimeout(() => {
+//   prompt("what u name?");
+// }, 3000);
+//
+// const logDelay = (value: string, success: () => void, error: () => void) => {
+//   setTimeout(() => {
+//     console.log(value);
+//
+//     if (value === "l") return error();
+//     success();
+//   }, 2000);
+// };
+//
+// //logDelay("hi", () => console.log("done"));
+// logDelay(
+//   "hi",
+//   () => {
+//     logDelay(
+//       "l",
+//       () => {
+//         logDelay(
+//           "lo",
+//           () => {
+//             console.log("done");
+//           },
+//           () => console.log("error"),
+//         );
+//       },
+//       () => console.log("error"),
+//     );
+//   },
+//   () => console.log("error"),
+// );
+//
+// const createLogDelayPromise = (value: string, time: number): Promise<void> =>
+//   new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log(value);
+//
+//       if (value === "l") return reject();
+//       resolve();
+//     }, time);
+//   });
+// createLogDelayPromise("h", 1000)
+//   .then(() => createLogDelayPromise("e", 2000))
+//   .then(() => createLogDelayPromise("l", 2000))
+//   .then(() => createLogDelayPromise("o", 2000))
+//   .catch(() => console.log("error"));
+//
+// const response = fetch("https://movies-example-api.netlify.app/")
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error("something went wrong try again");
+//     }
+//     return response;
+//   })
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+//
+// export const App = () => {
+//   return <div>123</div>;
+// };

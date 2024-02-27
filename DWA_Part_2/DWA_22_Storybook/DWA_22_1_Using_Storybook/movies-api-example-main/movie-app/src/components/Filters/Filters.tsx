@@ -7,7 +7,7 @@ import {
   TextField,
   Alert,
 } from "@mui/material";
-import { useSpring } from "@react-spring/web";
+import { animated, useSpring } from "@react-spring/web";
 import { FormEvent, useState, useRef, useEffect } from "react";
 import z from "zod";
 import styled from "@emotion/styled";
@@ -26,6 +26,7 @@ type Response = z.infer<typeof response>;
 
 export type Filters = {
   onSubmit: (response: Response) => void;
+  toggleConfigure: () => void;
 };
 
 const StyledAlert = styled(Alert)<{ error: string | null }>`
@@ -80,6 +81,7 @@ const Content = styled.div`
 `;
 
 export const Filters = (props: Filters) => {
+  const { toggleConfigure } = props;
   const { error, handleSubmit, style } = useFilters(props);
 
   return (
@@ -103,7 +105,9 @@ export const Filters = (props: Filters) => {
         </DialogContent>
 
         <DialogActions>
-          <Button variant="outlined">Cancel</Button>
+          <Button variant="outlined" onCLick={toggleConfigure}>
+            Cancel
+          </Button>
           <Button variant="contained" type="submit" form="filters">
             Apply
           </Button>

@@ -1,5 +1,6 @@
 import { createStore as createZustandStore, StoreApi } from "zustand";
-import { createApi } from "../api";
+import { Api } from "../api";
+//import { createApi } from "../api";
 
 type Preview = {
   id: number;
@@ -10,8 +11,12 @@ type Preview = {
 };
 
 type Store = {
-  phase: "Listing" | "Loading";
+  phase: "LISTING" | "LOADING" | "ERROR" | "CONFIGURATION";
   list: Preview[];
+  filter: string;
+
+  toggleConfiguration: () => void;
+  updateSearch: (value: string) => void;
 };
 
 const createTypedStore = createZustandStore<Store>();
@@ -19,17 +24,34 @@ const createTypedStore = createZustandStore<Store>();
 export const createStore = (api: Api): StoreApi<Store> => {
   // const api = createApi();
 
-  const store = createTypedStore(() => ({
-    phase: "Loading",
+  const store = createTypedStore((set, get) => ({
+    phase: "LOADING",
     list: [],
+    filter: "",
+
+    toggleConfiguration: () => {
+      const { phase } = get();
+      return set({
+        phase: phase === "CONFIGURATION" ? "LISTING" : "CONFIGURATION",
+      });
+    },
+
+    updateSearch: (value?: string) => {
+      set({ filter: value || "" });
+    },
   }));
 
   api.getMoviesList().then((data) => {
+    if (data instanceof Error) {
+      return store.setState({
+        phase: "ERROR",
+      });
+    }
     store.setState({
-      phase: "Listing",
+      phase: "LISTING",
       list: data,
     });
   });
   return store;
 };
-export const store = createStore();
+// export const store = createStore();

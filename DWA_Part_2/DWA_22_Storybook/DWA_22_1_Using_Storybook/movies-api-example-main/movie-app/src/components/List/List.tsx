@@ -11,6 +11,8 @@ import {
   DialogTitle,
   // Typography,
   // ButtonBase,
+  Skeleton,
+  Alert,
 } from "@mui/material";
 import styled from "@emotion/styled";
 //import { faker } from "@faker-js/faker";
@@ -21,8 +23,10 @@ import { Global, css } from "@emotion/react";
 // @ts-ignore
 import { Preview } from "../Preview/Preview.tsx";
 
-import { store } from "../../model";
-import { useStore } from "zustand";
+//import { store } from "../../model";
+//import { useStore } from "zustand";
+
+import { Filters } from "../Filters";
 
 // const StyledButton = styled(Button)`
 //   background: red;
@@ -51,30 +55,73 @@ const Wrapper = styled.div`
   padding: 1rem;
 `;
 
+const StyledSkeleton = styled(Skeleton)`
+  margin: 1rem 0;
+  height: 8rem;
+  width: 100%;
+  border-radius: 4px;
+`;
+
 export type List = {
+  phase: "IDLE" | "LOADING" | "ERROR" | "CONFIGURING";
   movies: (Preview & { id: number })[];
+  filter: string;
+  configuration: JSX.Element;
+  onFilter: (newValue: string) => void,
+    onConfigure () => void;
+
 };
 export const List = (props: List) => {
-  const { movies } = props;
+  const {
+    movies,
+    phase,
+    filter: filterString,
+    configuration,
+      onFilter,
+    toggleConfigure,
+  } = props;
 
   return (
     <Wrapper>
       <CssBaseline />
       <Global styles={global} />
 
+      {phase === "CONFIGURING" && <Filters onSubmit={onFilter} toggleConfigure={toggleConfigure}/>}
+
       <Row>
         <Typography>
           <strong>Movies App</strong>
         </Typography>
-        <Button variant="contained">Filter List</Button>
+        <Button disabled={phase !== "LISTING"} variant="contained" onClick={toggleConfigure}>
+          Filter List
+        </Button>
       </Row>
-      <List>
-        {movies.map(({ id, release: releaseString, ...innerProps }) => {
-          const release = new Date(releaseString);
+      <InnerList>
+        {phase === "LISTING" &&
+          movies
+            .filter((item) => {
+              if (filterString.trim() === "") return true;
+              return item.title
+                .toLowerCase()
+                .includes(filterString.toLowerCase());
+            })
 
-          return <Preview {...innerProps} release={release} key={id} />;
-        })}
-      </List>
+            .map(({ id, release: releaseString, ...innerProps }) => {
+              const release = new Date(releaseString);
+
+              return <Preview {...innerProps} release={release} key={id} />;
+            })}
+        {phase === "LOADING" && (
+          <>
+            {new Array(20).fill(null).map((_, index) => (
+              <StyledSkeleton variant="rectangular" />
+            ))}
+          </>
+        )}
+        {phase === "ERROR" && (
+          <Alert severity="error">Something went wrong</Alert>
+        )}
+      </InnerList>
     </Wrapper>
   );
 };

@@ -1,4 +1,4 @@
-import { Paper, Typography, ButtonBase } from "@mui/material";
+import { Paper, Typography, ButtonBase, Skeleton } from "@mui/material";
 import styled from "@emotion/styled";
 
 import { ArrowForwardIos } from "@mui/icons-material";
@@ -11,12 +11,14 @@ const Image = styled.img`
 const Card = styled(Paper)<{ as: string }>`
   margin: 1rem 0;
   list-style: none;
+  min-height: 12rem;
 `;
 const StyledButtonBase = styled(ButtonBase)`
   padding: 1rem;
   display: flex;
   align-items: center;
   text-align: left;
+  min-height: 8rem;
 
   &:hover {
     background: #007fff10;
