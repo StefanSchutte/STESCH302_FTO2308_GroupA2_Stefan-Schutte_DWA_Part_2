@@ -1,9 +1,10 @@
-import { Filters } from "./Filters.tsx";
+import { Presentation } from "./Filters.Presentation.tsx";
 import { StoryObj, Meta } from "@storybook/react";
+//import { Filters } from "./FiltersPresentation.tsx";
 
-const meta: Meta<Filters> = {
-  title: "components/Filters",
-  component: Filters,
+const meta: Meta<Presentation> = {
+  title: "components/FiltersPresentation",
+  component: Presentation,
 
   argTypes: {
     release: {
@@ -13,6 +14,6 @@ const meta: Meta<Filters> = {
 };
 export default meta;
 
-export const Basic: StoryObj<Filters> = {
+export const Basic: StoryObj<FiltersPresentation> = {
   args: {},
 };

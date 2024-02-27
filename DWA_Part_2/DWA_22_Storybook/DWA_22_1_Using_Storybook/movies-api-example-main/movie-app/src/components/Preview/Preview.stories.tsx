@@ -4,7 +4,7 @@ import { StoryObj, Meta } from "@storybook/react";
 import { mocks } from "./Preview.mocks.ts";
 
 const meta: Meta<Preview> = {
-  title: "components/Filters",
+  title: "components/FiltersPresentation",
   component: Preview,
 
   argTypes: {

@@ -1,5 +1,5 @@
 import { createStore as createZustandStore, StoreApi } from "zustand";
-import { Api } from "../api";
+import { Api, createApi } from "../api";
 //import { createApi } from "../api";
 
 type Preview = {
@@ -54,4 +54,6 @@ export const createStore = (api: Api): StoreApi<Store> => {
   });
   return store;
 };
-// export const store = createStore();
+
+const api = createApi();
+export const store = createStore(api);

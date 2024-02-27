@@ -61,7 +61,7 @@
 // `;
 //
 // // const mockPreviews = new Array(30).fill(undefined).map(
-// //   (_, index): Filters => ({
+// //   (_, index): FiltersPresentation => ({
 // //     actors: faker.number.int({ min: 1, max: 12 }),
 // //     id: index + 1,
 // //     image: faker.image.urlPicsumPhotos(),

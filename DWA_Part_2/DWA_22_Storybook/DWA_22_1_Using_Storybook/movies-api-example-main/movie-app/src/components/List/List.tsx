@@ -26,7 +26,7 @@ import { Preview } from "../Preview/Preview.tsx";
 //import { store } from "../../model";
 //import { useStore } from "zustand";
 
-import { Filters } from "../Filters";
+import { FiltersPresentation } from "../Filters";
 
 // const StyledButton = styled(Button)`
 //   background: red;
