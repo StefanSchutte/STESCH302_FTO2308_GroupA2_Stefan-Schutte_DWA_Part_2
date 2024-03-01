@@ -1,0 +1,19 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.6.0",
+    "puppeteer-core": "^21.6.0",
+    "sharp": "^0.33.2",
+    "uuid": "^9.0.1"
+  }
+}
