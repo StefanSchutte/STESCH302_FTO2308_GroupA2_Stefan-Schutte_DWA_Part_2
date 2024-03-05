@@ -39,7 +39,7 @@ ReactDOM.render(<TemporaryName />, document.getElementById("root"));
 1. Why do we need to `import React from "react"` in our files?
 React is what defines JSX
 
-2. If I were to console.log(page) in index.js, what would show up?
+2. If I were to console.log(page) in index.jsx, what would show up?
 A JavaScript object. React elements that describe what React should
 eventually add to the real DOM for us.
 

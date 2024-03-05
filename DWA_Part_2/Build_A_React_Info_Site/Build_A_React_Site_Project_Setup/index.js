@@ -8,9 +8,9 @@
  - Navbar
  - Main
  - Create an App component outside the components folder (sibling to
- the index.js file)
+ the index.jsx file)
  - Have App render the Navbar and Main components
- - Import and render the App component inside of index.js using ReactDOM
+ - Import and render the App component inside of index.jsx using ReactDOM
  - At this point you should have your "Navbar goes here" etc. showing up
  in the mini-browser.
  - Go to Google fonts and get the "Inter" font with weights 400, 600, and 700.
@@ -20,8 +20,8 @@
  works if you haven't done it before)
  */
 
-import React from 'react';
+import React from "react";
 import App from "./App.js";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"));

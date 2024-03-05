@@ -208,18 +208,18 @@ As an example we might have the `services` category folder, with modules `One`, 
 ```
 category/
 ├── One/
-│   ├── index.js
+│   ├── index.jsx
 │   ├── One.js
 │   ├── One.Inner.js
 │   ├── One.helpers.js
 │   ├── One.schema.js
 │   └── One.test.js
 ├── Two/
-│   ├── index.js
+│   ├── index.jsx
 │   ├── Two.js
 │   └── Two.schema.js
 └── three/
-    ├── index.js
+    ├── index.jsx
     ├── three.js
     ├── three.Inner.js
     ├── three.helpers.js
@@ -229,7 +229,7 @@ category/
 
 #### Barrel Files
 
-You will note that all folders contain an `index.js` file. This is known as a [barrel file](https://flaming.codes/en/posts/barrel-files-in-javascript/). It should be the only thing that is ever imported directly from outside of the folder itself. This is the primary point of encapsulation of modules.
+You will note that all folders contain an `index.jsx` file. This is known as a [barrel file](https://flaming.codes/en/posts/barrel-files-in-javascript/). It should be the only thing that is ever imported directly from outside of the folder itself. This is the primary point of encapsulation of modules.
 
 ### Helper Files
 
